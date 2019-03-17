@@ -9,28 +9,29 @@
 </head>
 <body>
 	<form method="post" action="result.php">
-		<label>Indulás:</label><br/>
+		<label>Indulás:</label>
 		<select name="start">
 			<option value="Budapest">Budapest</option>
 			<option value="Veszprém">Veszprém</option>
 			<option value="Székesfehérvár">Székesfehérvár</option>
 			<option value="Győr">Győr</option>
 		</select>
-		<label>Érkezés:</label><br/>
+		<br/><br/>
+		<label>Érkezés:</label>
 		<select name="destination">
 			<option value="Budapest">Budapest</option>
 			<option value="Veszprém">Veszprém</option>
 			<option value="Székesfehérvár">Székesfehérvár</option>
 			<option value="Győr">Győr</option>
 		</select>
+		<br/><br/>
 		<label>Kedvezmények</label>
 		<input type="radio" name="discount" value="1">Felnőtt<br/>
 		<input type="radio" name="discount" value="0.5">Diák<br/>
 		<input type="radio" name="discount" value="0">Nyugdíjas<br/>
+		<br/>
 		<button type="submit">Menetdíj-számítás</button>
 		
-		
 	</form>
-	
 </body>
 </html>
